@@ -1,0 +1,33 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background: #333333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+}
+
+header {
+
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+ul li {
+    padding-right: 5px;
+}
+ul a {
+    text-decoration: none;
+    color: #333;
+}
+
