@@ -1,58 +1,102 @@
-html {
-    font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    box-sizing: border-box;
+    --main-bg-color: brown;
 }
 
 body {
     background: #333;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column: 2 / 6;
     background: #fff;
 }
 
 header {
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    height: 150px;
+    justify-content: flex-start;
+    grid-column: 1 / 7;
+    background: lightblue;
+    padding: 20px;
 }
 
-.header-text * {
+header p {
+    text-align: right;
+}
+
+.header-text h1, .header-text p {
     margin: 0;
     padding: 0;
 }
 
+#header-img {
+    width: 50px;
+}
+
 nav {
-    background: brown;
-    padding: 10px;
+    grid-column: 1 / 7;
+    background: var(--main-bg-color);
+    padding: 20px;
 }
 
-nav ul {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
+.nav {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-ul li:not(:last-child) {
-    padding-right: 10px;
+.nav-item {
+    float: left;
 }
-ul a {
+
+.nav-link {
+    display: block;
     text-decoration: none;
     color: #fff;
+    border-bottom: 1px dotted transparent;
 }
 
-ul a:hover {
-    text-shadow: 0 0 .9px #fff, 0 0 .9px #fff;
+.nav-item:not(:last-child) {
+    padding-right: 10px;
+}
+
+.nav-link:hover, .nav-link:focus, .active {
+    border-bottom: 1px dotted #fff;
+}
+
+li h3 {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column: 1 / 7;
+    padding: 0 20px;
 }
 
 footer {
+    grid-column: 1 / 7;
     display: flex;
     flex-flow: row wrap;
     align-items: flex-end;
     background: brown;
     height: 100px;
+    padding: 20px
+}
+
+@media all and (min-width: 600px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
 }
 
