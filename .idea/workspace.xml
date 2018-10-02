@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f0ccfed-d2d7-4e7d-975d-9f801c1d3179" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assignment_2/assignment2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_2/assignment2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_3/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_3/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment_3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment_3/references.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_3/references.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment_3/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_3/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,39 +21,39 @@
     <session id="214223285">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.4" value="4" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="16" />
+          <entry key="html" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="16" />
+          <entry key="HTML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1164" />
-          <entry key="html" value="1136" />
+          <entry key="html" value="1177" />
           <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1164" />
-          <entry key="HTML" value="1136" />
+          <entry key="HTML" value="1177" />
           <entry key="PLAIN_TEXT" value="39" />
         </counts>
       </usages-collector>
@@ -65,8 +65,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment_3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="68" column="58" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
+            <state relative-caret-position="60">
+              <caret line="4" column="90" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignment_3/references.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="90" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignment_3/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-112">
+              <caret line="4" column="90" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -74,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <state relative-caret-position="315">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -102,10 +120,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/styles.css" />
-        <option value="$PROJECT_DIR$/Assignment_3/index.html" />
-        <option value="$PROJECT_DIR$/Assignment_3/references.html" />
         <option value="$PROJECT_DIR$/Assignment_3/styles/main.css" />
         <option value="$PROJECT_DIR$/Assignment_2/assignment2.html" />
+        <option value="$PROJECT_DIR$/Assignment_3/index.html" />
+        <option value="$PROJECT_DIR$/Assignment_3/references.html" />
+        <option value="$PROJECT_DIR$/Assignment_3/contact.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -218,6 +237,8 @@
       <workItem from="1536231280356" duration="85000" />
       <workItem from="1536354347956" duration="296000" />
       <workItem from="1536480260151" duration="640000" />
+      <workItem from="1537623395207" duration="344000" />
+      <workItem from="1537893216063" duration="199000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1536139960007</created>
@@ -237,7 +258,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10833000" />
+    <option name="totallyTimeSpent" value="11376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="752" extended-state="6" />
@@ -309,13 +330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment_3/references.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assignment_2/assignment2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
@@ -325,15 +339,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment_3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="68" column="58" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
+        <state relative-caret-position="60">
+          <caret line="4" column="90" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment_3/references.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="90" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment_3/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="4" column="90" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        <state relative-caret-position="315">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
