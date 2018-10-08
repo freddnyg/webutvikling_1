@@ -1,0 +1,22 @@
+form {
+    width: 80%;
+    margin: auto;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.rdio {
+    display: flex;
+}
+
+input[type="radio"] {
+    display: flex;
+}
