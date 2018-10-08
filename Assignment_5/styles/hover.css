@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+}
+
+.button {
+    width: 250px;
+    height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#firstbutton {
+    background-image: url("../images/saga_1.jpg");
+}
+
+#firstbutton:hover {
+    background-image: url("../images/saga_2.jpg");
+}
+
+#secondbutton {
+    background-image: url("../images/tyra_1.jpg");
+}
+
+#secondbutton:hover {
+    background-image: url("../images/tyra_2.jpg");
+}
+
+#thirdbutton {
+    background-image: url("../images/sagaotyra_1.jpg");
+}
+
+#thirdbutton:hover {
+    background-image: url("../images/sagaotyra_2.jpg");
+}
