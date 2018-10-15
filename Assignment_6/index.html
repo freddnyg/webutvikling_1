@@ -1,53 +1,37 @@
 <!DOCTYPE html>
-<html lang="no">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="column">
-                <ol> 
-                    <li>Fornavn</li> 
-                    <li>Etternavn</li> 
-                    <li>Alder</li> 
-                    <li>Radioknapper for å indikere om du er medlem av klubben fra før av eller ikke.</li> 
-                    <li>Brukernavn</li> 
-                    <li>Passord</li> 
-                    <li>Submit og reset-knapper.</li> 
-                </ol>
-            </div>
-            <div class="column">
-                <form>
-                    <label for="firstname">Fornavn:</label>
-                    <input type="text" placeholder="Ola" name="firstname">
-                    <label for="lastname">Etternavn:</label>
-                    <input type="text" placeholder="Normann" name="lastname">
-                    <label for="age">Alder:</label>
-                    <input type="text" placeholder="18" name="age">
-                    <label for="username">Brukernavn:</label>
-                    <input type="text" name="username">
-                    <label for="passwd">Passord:</label>
-                    <input type="password" name="passwd">
-                    <label for="member">Medlem?</label>
-                    <div class="rdio">
-                        Ja<input type="radio" name="member" value="yes" checked="checked">
-                        Nei<input type="radio" name="member" value="no">
-                    </div>
-                    
-                    <div class="buttons">
-                        <input type="submit">
-                        <input type="reset">
-                    </div>           
-                    
-                </form>
-            </div>
+    <html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Velkommen til HEBIP-klubben!</h1>
+            <h2>Vennligst logg inn, eller registrer deg om du ikke allerede har konto.</h2>
+            <form>
+                <label for="member">Medlem?</label>  
+                <div class="rdio">
+                    Ja<input type="radio" name="member" value="yes" checked="checked">
+                    Nei<input type="radio" name="member" value="no">
+                </div>
+                <label for="firstname">Fornavn:</label>
+                <input type="text" placeholder="Ola" name="firstname">
+                <label for="lastname">Etternavn:</label>
+                <input type="text" placeholder="Normann" name="lastname">
+                <label for="age">Alder:</label>
+                <input type="text" placeholder="18" name="age">
+                <label for="username">Brukernavn:</label>
+                <input type="text" name="username">
+                <label for="passwd">Passord:</label>
+                <input type="password" name="passwd">     
+                <div class="buttons">
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+            </form>
         </div>
-    </div>
-    
-</body>
+    </body>
 </html>
