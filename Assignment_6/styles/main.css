@@ -17,11 +17,11 @@ body {
     box-shadow: 0 0 20px #333;
 }
 
-input[type=text], input[type=password], select, textarea {
+input[type=text], input[type=password], input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-    margin-top: 6px;
+    margin-top: 2px;
     margin-bottom: 16px;
     resize: vertical;
 }
@@ -37,12 +37,16 @@ input[type=radio] {
     width: 15px;
 }
 
-input[type=submit] {
-    background-color: #4CAF50;
+input[type=submit] , input[type=reset] {
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    
 }
 
 input[type=submit]:hover {
@@ -51,12 +55,24 @@ input[type=submit]:hover {
 
 input[type=reset] {
     background-color: red;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
 }
 
 input[type=reset]:hover {
     background-color: darkred;
+}
+
+label {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+label span {
+    font-size: .8em;
+    color: #888;
+}
+
+@media all and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
 }

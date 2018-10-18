@@ -10,28 +10,32 @@
     <body>
         <div class="container">
             <h1>Velkommen til HEBIP-klubben!</h1>
-            <h2>Vennligst logg inn, eller registrer deg om du ikke allerede har konto.</h2>
+            <h3>Vennligst logg inn, eller registrer deg om du ikke allerede har konto.</h3>
             <form>
                 <label for="member">Medlem?</label>  
                 <div class="rdio">
-                    Ja<input type="radio" name="member" value="yes" checked="checked">
+                    Ja<input type="radio" name="member" value="yes" checked>
                     Nei<input type="radio" name="member" value="no">
                 </div>
-                <label for="firstname">Fornavn:</label>
-                <input type="text" placeholder="Ola" name="firstname">
-                <label for="lastname">Etternavn:</label>
-                <input type="text" placeholder="Normann" name="lastname">
-                <label for="age">Alder:</label>
-                <input type="text" placeholder="18" name="age">
-                <label for="username">Brukernavn:</label>
-                <input type="text" name="username">
-                <label for="passwd">Passord:</label>
-                <input type="password" name="passwd">     
+                <div id="member-data">
+                    <label for="firstname">Fornavn:</label>
+                    <input type="text" placeholder="Ola" name="firstname">
+                    <label for="lastname">Etternavn:</label>
+                    <input type="text" placeholder="Normann" name="lastname">
+                    <label for="age">Alder:</label>
+                    <input type="text" name="age">
+                </div>
+
+                <label for="username">Brukernavn: <span>(e-post-addresse)</span></label>
+                <input type="email" name="username" required>
+                <label for="passwd">Passord: <span>(minimum 6 tegn)</span></label>
+                <input type="password" name="passwd" pattern=".{6,}" required>     
                 <div class="buttons">
                     <input type="submit">
                     <input type="reset">
                 </div>
             </form>
         </div>
+        <script src="script/main.js"></script>
     </body>
 </html>
